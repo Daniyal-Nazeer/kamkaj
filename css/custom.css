@@ -827,3 +827,11 @@ button.slick-next.slick-arrow {
 }
 
 
+button.slick-prev.slick-arrow {
+    opacity: 0;
+}
+
+button.slick-prev.slick-arrow:before {
+    content: '<';
+    position: absolute;
+}
